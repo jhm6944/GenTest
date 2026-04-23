@@ -61,3 +61,7 @@ submodules/simple-knn/build/
 *.pth
 *.pt
 cfg_args
+
+# 노트북은 추적 (위의 *.ipynb 규칙 예외)
+!notebooks/
+!notebooks/*.ipynb

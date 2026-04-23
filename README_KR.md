@@ -7,6 +7,31 @@
 
 ---
 
+## ☁️ Colab에서 바로 실험하기
+
+아래 버튼을 클릭하면 Google Colab에서 이 레포의 코드를 자동으로 클론하고 3DGS 학습을 실행합니다.
+
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/jhm6944/GenTest/blob/main/notebooks/3dgs_colab_experiment.ipynb)
+
+### Colab 노트북 기능
+| 단계 | 내용 |
+|------|------|
+| STEP 0 | 실험 설정 (씬, iteration, 해상도 등) |
+| STEP 1 | GPU 자동 확인 및 VRAM 경고 |
+| STEP 2 | GitHub 레포 자동 클론 |
+| STEP 3 | Python 패키지 자동 설치 |
+| STEP 4 | CUDA 서브모듈 자동 빌드 |
+| STEP 5 | 데이터셋 자동 다운로드 (T&T / Deep Blending) |
+| STEP 6 | 학습 실행 (실시간 로그 출력) |
+| STEP 7 | 렌더링 + PSNR/SSIM/LPIPS 평가 |
+| STEP 8 | 결과 이미지 시각화 |
+| STEP 9 | Google Drive 저장 (선택) |
+| STEP 10 | 하이퍼파라미터 자동 스윕 실험 (선택) |
+
+> ⚠️ Colab에서 **런타임 → 런타임 유형 변경 → T4 GPU** 설정 후 실행하세요!
+
+---
+
 ## 📌 개요
 
 3D Gaussian Splatting(3DGS)은 2023년 발표된 실시간 Novel-View Synthesis(새로운 시점 합성) 방법입니다.  
