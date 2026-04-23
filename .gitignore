@@ -1,0 +1,63 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Conda / Virtual Environment
+.env
+.venv
+env/
+venv/
+ENV/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb
+
+# 3DGS Output / Model
+output/
+eval/
+
+# Dataset (용량이 크므로 제외)
+data/
+datasets/
+*.ply
+*.splat
+
+# Depth maps (generated)
+depth_maps/
+
+# COLMAP temp files
+distorted/
+*.db
+
+# System files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs & TensorBoard
+logs/
+runs/
+*.log
+
+# CUDA build artifacts
+submodules/diff-gaussian-rasterization/build/
+submodules/fused-ssim/build/
+submodules/simple-knn/build/
+
+# Checkpoint
+*.pth
+*.pt
+cfg_args
